@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    width: 120px;
+    height: 65px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 30px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Audiowide', sans-serif;
+    transition: .3s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb( 49, 8, 97);
+    border-radius: 20px;  
+    background-size: 20px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Audiowide', sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    margin-right: 50px;
+}
+
+.center h2{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 300px;
+
+}
+
+.buttons button{
+    height: 40px;
+    width: 120px;
+    color: white;
+    background: black;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Audiowide', sans-serif;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+.buttons .btn{
+    margin-left: 5px;
+}
+
+.buttons button:hover{
+    background: rgb( 49, 8, 97);
+}
